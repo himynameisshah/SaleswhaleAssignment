@@ -1,0 +1,113 @@
+.header {
+    background-color: var(--color-third);
+    display: flex;
+    flex-direction: column;
+    padding-top: 1%;
+}
+
+.headerTop {
+    background-color: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 1%;
+}
+
+.headerTop h1 {
+    background-color: var(--color-third);
+    padding-left: 1%;
+}
+
+.headerTop button {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: 2%;
+    background-color: var(--color-button);
+    border: none;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+    color: var(--color-third);
+    padding: 10px;
+    border-radius: 5px;
+    text-indent: 30px;
+    font-weight: 500;
+}
+
+.headerTop button:active {
+    background-color: var(--color-primary);
+}
+
+.headerTop button:hover {
+    background-color: var(--color-button-hover);
+}
+
+
+
+.headerTop img {
+    background-color: inherit;
+    padding-left: 2%;
+}
+
+.headerBottom {
+    background: var(--color-third);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: var(--color-shadow) 0px 3px 8px -5px;
+}
+
+.headerBottom input {
+    margin-left: auto;
+    margin-right: 3%;
+    border: none;
+    padding: 5px;
+    text-indent: 20px;
+    background-color: var(--color-third);
+    font-size: small;
+    font-weight: 500;
+}
+
+.headerBottom h2 {
+    background: var(--color-third);
+    margin: 1% 2%;
+    cursor: pointer;
+}
+
+.searchIcon {
+    background-image: url(../images/icon-search.svg);
+    background-repeat: no-repeat;
+    background-position: 2px 5px;
+}
+
+.addIcon {
+    background-image: url(../images/Shape.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+
+.headerBottom button {
+    font-size: 120%;
+    font-weight: 600;
+    font-family: inherit;
+    border: 0;
+    padding:0;
+    background-color: var(--color-third);
+    margin: 0px 10px;
+    padding: 10px 10px;
+}
+.headerBottom button:first-child {
+    margin-left: 25px;
+}
+
+.headerBottom button:hover {
+    color: var(--color-button);
+}
+
+.headerBottom button:focus {
+    color: var(--color-button-hover);
+    border-bottom: 3px solid var(--color-button-hover);
+    outline: none;
+}

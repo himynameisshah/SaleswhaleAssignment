@@ -1,0 +1,15 @@
+.activity {
+    grid-area: activity;
+    background-clip: content-box;
+    background-color: var(--color-third); 
+    box-shadow: var(--color-shadow) 0px 3px 8px;
+    border-bottom: 10px solid var(--color-third);
+}
+
+.activity h2 {
+    background-color: var(--color-third); 
+    padding: 20px 25px;
+    border-bottom: 1.5px solid var(--color-outline);
+    margin-bottom: 40px;
+}
+

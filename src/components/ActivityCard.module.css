@@ -1,0 +1,33 @@
+.activityCard {
+    margin: 10px 20px;
+    display: flex;
+    flex-flow: row;
+    padding: 0% 3%;
+    background-color: inherit; 
+}
+
+.activityInfo {
+    flex-flow: column;
+    padding-left: 2%;
+    background-color: inherit; 
+}
+
+.activityInfo p {
+    background-color: inherit; 
+}
+
+.activityInfo strong {
+    background-color: inherit; 
+}
+
+.activityCard img {
+    border-radius: 70%;
+    width: 40px;
+    height: 40px ;
+}
+
+.time {
+    padding-top: 3% ;
+    padding-bottom: 5% ;
+    color: var(--color-subtext);
+}

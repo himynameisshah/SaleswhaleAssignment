@@ -1,0 +1,36 @@
+.sidenav {
+    background-color: var(--color-primary);
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    margin-bottom: auto;
+    width:80px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+.sidenav img {
+    background-color: inherit;
+    padding: 32%;
+    cursor: pointer;
+}
+
+.sidenav img:not(:first-child):hover {
+    background-color: var(--color-secondary);
+}
+.sidenav img:last-child {
+    margin-top: auto;
+}
+
+.sidenav img:nth-child(3) {
+    background-color: var(--color-button-hover);
+    color: var(--color-third);
+}
+
+.sidenav img::not(:first-child) {
+    background-color: var(--color-button-hover2);
+
+}
+

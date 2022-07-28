@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+:root {
+    --color-primary:  #042235;
+    --color-secondary: #4F6471;
+    --color-third: #ffffff;
+    --color-narwhal: #A4A6A8;
+    --color-subtext: #b2b2b2;
+    --color-button: #40D2Bf;
+    --color-button-hover: #2995DA;
+    --color-outline: rgba(128, 128, 128, 0.128);
+    --color-shadow: rgba(0, 0, 0, 0.24);
+    --color-bg: #EFF2F6;
+}
+/* why cant override bg color */
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background: var(--color-bg);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg { 
+    display: flex;
+    flex-flow: row;
+    height: 100vh
+
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    margin-left: 80px;
+}
+.feed {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-clip: content-box;
+    margin: 30px 15px 30px 30px;
+    grid-gap: 2%;
+}
+
